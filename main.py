@@ -11,8 +11,8 @@ except:
     pass
 
 root = tk.Tk()
-root.title("Distance Converter")
-
+root.title("Meters 2 Feet")
+root.geometry("450x275")
 font.nametofont("TkDefaultFont").configure(size=15)
 
 feet_value = tk.StringVar()
